@@ -1,4 +1,134 @@
-.logo {
-    margin-left: auto;
-    margin-right: auto;
+.google{
+    position: fixed;
+    top: 38%;
+    left: 50%;
+    width: 300px;
+    height: 100px;
+    transform: translate(-50%, -38%)
+}
+.text{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 570px;
+    height: 35px;
+    font-size: 14px;
+    transform: translate(-50%, -50%)
+}
+.right{
+    float: right;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    font-family: arial;
+    font-size: 13px;
+    border-top: 1px solid #e6e6e6;
+}
+#fb{
+    position: fixed;
+    top: 60%;
+    left: 43%;
+    font-size: 13px;
+    text-align: center;
+    height: 35px;
+    width: 135px;
+    border: 0;
+    transform: translate(-43%,-60%)
+}
+#sb{
+    position: fixed;
+    top: 60%;
+    left: 57%;
+    font-size: 13px;
+    text-align: center;
+    height: 35px;
+    width: 135px;
+    border: 0;
+    transform: translate(-57%,-60%)
+}
+#advertising{
+    float: left;
+    text-decoration: none;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+#advertising:hover{
+    text-decoration: underline;
+}
+#business{
+    float: left;
+    text-decoration: none;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+#business:hover{
+    text-decoration: underline;
+}
+#about{
+    float: left;
+    text-decoration: none;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+#about:hover{
+    text-decoration: underline;
+}
+#privacy{
+    float: right;
+    text-decoration: none;
+    margin-top: 13px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#privacy:hover{
+    text-decoration: underline;
+}
+#settings{
+    float: right;
+    text-decoration: none;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+#settings:hover{
+    text-decoration: underline;
+}
+#terms{
+    float: right;
+    text-decoration: none;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+#terms:hover{
+    text-decoration: underline;
+}
+#signin{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    width: 80px;
+    background-color: whitesmoke;
+}
+#gmail{
+    margin-right: 10px;
+    text-decoration: none;
+}
+#gmail:hover{
+    text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
 }
